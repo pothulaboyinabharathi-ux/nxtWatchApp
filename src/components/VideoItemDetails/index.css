@@ -1,0 +1,56 @@
+.video-details-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.video-details-container.dark {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.video-details-container.light {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.video-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.actions button {
+  margin-right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.active-btn {
+  color: #2563eb;
+}
+
+.inactive-btn {
+  color: #64748b;
+}
+
+.channel-section {
+  display: flex;
+  margin-top: 20px;
+}
+
+.channel-section img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+.route-layout {
+  display: flex;
+}
+
+.trending-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.trending-container.dark {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.trending-container.light {
+  background-color: #f9f9f9;
+}
+
+.trending-videos {
+  list-style: none;
+  padding: 0;
+}
+
+.trending-video-item {
+  margin-bottom: 20px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+}

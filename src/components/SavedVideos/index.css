@@ -1,0 +1,28 @@
+.saved-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.saved-container.dark {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.saved-container.light {
+  background-color: #f9f9f9;
+  color: #000000;
+}
+
+.saved-videos-list {
+  list-style: none;
+  padding: 0;
+}
+
+.saved-video-item {
+  margin-bottom: 20px;
+}
+
+.no-saved-container {
+  text-align: center;
+  margin-top: 50px;
+}

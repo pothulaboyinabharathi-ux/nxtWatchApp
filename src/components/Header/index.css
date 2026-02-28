@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.header.dark {
+  background-color: #181818;
+}
+
+.header.light {
+  background-color: #ffffff;
+}
+
+.logo {
+  height: 32px;
+}
+
+.header-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}

@@ -1,0 +1,53 @@
+.home-layout {
+  display: flex;
+}
+
+.home-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.home-container.dark {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+.home-container.light {
+  background-color: #f9f9f9;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.videos-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-item {
+  width: 300px;
+  margin: 10px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.channel-logo {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.failure-view,
+.no-videos-view {
+  text-align: center;
+}

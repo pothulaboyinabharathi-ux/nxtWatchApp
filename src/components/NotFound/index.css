@@ -1,0 +1,23 @@
+.notfound-layout {
+  display: flex;
+}
+
+.notfound-container {
+  flex-grow: 1;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.notfound-container.light {
+  background-color: #f9f9f9;
+}
+
+.notfound-container.dark {
+  background-color: #0f0f0f;
+}
+
+.notfound-img {
+  width: 300px;
+  margin-top: 50px;
+}

@@ -1,0 +1,22 @@
+.gaming-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.gaming-container.dark {
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+.gaming-container.light {
+  background-color: #f9f9f9;
+}
+
+.gaming-videos {
+  list-style: none;
+  padding: 0;
+}
+
+.gaming-video-item {
+  margin-bottom: 20px;
+}
